@@ -1,0 +1,50 @@
+input{
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 2rem;
+    height: 3rem;
+    border: 1px solid #ced4da;
+}
+input:focus{
+    border-color: #17a2b8;
+    outline: none;
+    background-color: transparent;
+
+}
+.card-head{
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.card-title{
+    background-color: #17a2b8;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.card {
+    margin-top: 5rem;
+    border-radius: 5px;
+    height: auto;
+    width: 70%;
+}
+.tag1,.tag2{
+    margin-bottom: 8px!important;
+    font-weight: 600;
+    font-size: 15px;
+}
+.reset-btn,.submit-btn{
+    float: right;
+    margin: 0 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 15px;
+}
+
+.btn{
+    float: right;
+    background-color: #ced4da;
+    width: 100%;
+}

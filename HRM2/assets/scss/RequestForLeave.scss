@@ -1,0 +1,150 @@
+body {
+    background-color: rgba($color: #ced4da, $alpha: 0.2);
+}
+
+.card {
+    margin-top: 7rem;
+    margin-left: 1.5rem;
+    height: auto;
+    border-radius: 0px;
+    width: 80%;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.card-title {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card.moveleft {
+    margin-left: -6rem!important;
+    transition-duration: 0.4s;
+}
+
+.nav {
+    margin-left: 1rem;
+    padding: 8px;
+    font-size: 19px;
+    font-weight: 450;
+}
+
+p {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+input {
+    height: 2rem;
+    padding-left: 10px;
+    width: 100%;
+    border: 1px solid #ced4da;
+}
+input:focus {
+    border-color: #17a2b8;
+    outline: none;
+    background-color: transparent;
+}
+
+textarea {
+    height: 2rem;
+    padding-left: 10px;
+    width: 100%;
+    border: 1px solid #ced4da;
+}
+textarea:focus {
+    border-color: #17a2b8;
+    outline: none;
+    background-color: transparent;
+}
+
+
+select {
+    padding-left: 10px;
+    height: 2rem;
+    width: 100%;
+    border: 1px solid #ced4da;
+    background-color: white;
+}  
+select:focus {
+    border-color: #17a2b8;
+    outline: none;
+}
+
+  
+.class4 {
+    margin-top: 1rem;
+    button {
+        height: 2.5rem;
+        width: 60%;
+        margin-left: 2rem;
+        border-radius: 5px;
+    }
+    .button1 {
+        button {
+            background-color: #17a2b8;
+            border: none;
+            color: white;
+        }
+    }
+    .button2 {
+        button {
+            background-color: #ffc107;
+            border: none;
+        }
+    }
+    .button3 {
+        button {
+            background-color: #dc3545;
+            border: none;
+            color: white;
+        }
+    }
+}
+
+.bx-menu {
+    margin-top: 8px;
+    //margin-left: 42rem;
+    left: 5rem;
+    font-size: 30px;
+}
+
+textarea {
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+
+.navigationicon {
+    background-color: white;
+}
+
+.submit {
+    height: 2.5rem;
+    width: 60%;
+    margin-left: 2rem;
+    border-radius: 5px;
+    background-color: #17a2b8;
+    border: none;
+    color: white;
+}
+
+.nav-link {
+    margin-top: -7.65%!important;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 18rem;
+    .p1 {
+        font-weight: 600!important;
+    }
+}
